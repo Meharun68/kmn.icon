@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin:auto;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-media ul li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    background: blue;
+    border: 1px solid blue;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    border-radius: 8px;
+    transition: 0.5s;
+
+
+    
+}
+/* display inline block icon pasapasi bosar jonno
+transition joto kom hobe toto slowly kaj korbe
+ */
+.social-media ul li i{
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+
+}
+
+.social-media ul li:hover {
+       transition: 0.5s;
+}
+
+.social-media ul li:hover i{
+    transition: 0.5s;
+    transform: scale(1.5);
+    
+
+}
+   
+/* transform die box ba iconegulo boro hobe */
+
+/* Position css */
+.main-box{
+    position: relative;
+    width: 400px;
+    height: 250px;
+    background-color: green;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.child-box{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: red;
+    left: 90px;
+    top: 45px;
+}
+
+.map img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    left: 126px;
+    top: 70px;
+}
+/* position relative main box a use hoi
+position absolute die childbox nmoov kora jai
+position fixed dile oita fixed hoye thake */
